@@ -1,0 +1,94 @@
+<html>
+
+	<head>
+		<title>Do Me A Solid </title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Dosis|Josefin+Sans:300|Indie+Flower' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$( document ).ready(function() {
+   				 $(".show").slideToggle(1000);
+			});
+
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+
+		</script>
+
+		<script type="text/javascript">
+			
+		</script>
+
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<header>
+			Do me a solid
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a> </li>
+					<li>|<a href="story.html"> Our Story</a></li>
+				</ul>
+
+			</nav>
+		</header>
+
+		<div id="mainPic">
+			<div class="top-heading">
+				<div class="show">
+				<h1>Do Me a Solid</h1>
+				<h2>When you just need something done</h2>
+			</div>
+			</div>
+			<a href="#about" style="text-decoration:none;">
+			<div class="circle">
+				&#8744;
+			</div>
+			</a>
+			.
+		</div>
+
+		<section id="about">
+			<br>
+			<hr>
+
+			<h1>Do me a solid?</h1>
+
+			<p>Sometimes in life you find yourself in situations where you just need a favour from someone. That's what we're here to do. </p>
+
+
+			<hr>
+
+		</section>
+
+		<section id="how">
+			<h1>This is how we do it </h1>
+		</section>
+
+		<footer>
+			<p>An INFS2233 Website</p>
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="story.html">Our Story</a></li>
+			</ul>
+		</footer>
+
+	</body>
+
+
+</html>

@@ -1,0 +1,255 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+h1{
+	color: #6381AB;
+}
+
+body{
+	background: url('images/back.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+hr{
+	margin-top: 20px;
+    border: 0;
+    height: 2px;
+    width: 70%;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+a:active{
+	color: white;
+}
+
+a:visited{
+	color: grey;
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/*position: fixed;*/
+	top: 0;
+	z-index: 100;
+}
+
+footer{
+	background-color: #6381AB;
+	width: 100%;
+	height: 100px;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+footer, ul{
+	float: right;
+}
+
+footer li{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	list-style-type: none;
+
+}
+
+nav{
+	float: right;
+	color: white;
+	margin: 0 0 auto;
+	position: relative;
+	top: -0%;
+}
+
+nav li{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	list-style-type: none;
+	display: inline;
+}
+
+.column-three{
+	display: block;
+	width: 75%;
+	/*height: 100%;*/
+	margin: 0 auto;
+	/*padding-left: 30px;*/
+
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+}
+
+#mainPic{
+	/*background: url('images/back.png');*/
+	height: 100%;
+	width: 100%;
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+
+.top-heading{
+	/*position: block;*/
+	margin: 0 auto;
+	padding-top: 100px;
+	/*display:none;*/
+}
+
+.top-heading h1{
+	font-family: 'Dosis', sans-serif;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   	-webkit-text-stroke-width: 0.5px;
+   	-webkit-text-stroke-color: black;
+}
+
+.top-heading h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+.circle{
+	border: 3px solid white;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display:block;
+	margin: 0 auto;
+	margin-top: 10%;
+	/*position: absolute;
+	bottom: 10px;*/
+	/*left: 45%;*/
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50pt;
+	color: white;
+}
+
+.circle:hover{
+	background-color: rgba(255,255,255,0.4);
+
+	border: 3px solid white;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display:block;
+	margin: 0 auto;
+	margin-top: 10%;
+	/*position: absolute;
+	bottom: 10px;*/
+	/*left: 45%;*/
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50pt;
+	color: white;
+}
+
+#about, .story{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+}
+
+#about h1, p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 4em;
+
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#about p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2em;
+
+	width: 60%;
+	margin-bottom: 50px;
+}
+
+#how {
+	width: 100%;
+	height: 50%;
+	background-color: rgb(240,240,240);
+}
+
+#how h1, p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 4em;
+
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.story{
+	font-family: 'Dosis', sans-serif;
+	font-size: 4em;
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.story h1{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20pt;
+
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.story p{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12pt;
+	color: black;
+	width: 250px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+footer p{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12;
+	position: absolute;
+	float: left;
+	text-align: left;
+}
+
+footer a, a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.show{
+	display: none;
+}
